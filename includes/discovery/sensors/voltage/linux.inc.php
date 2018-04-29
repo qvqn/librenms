@@ -3,7 +3,7 @@
  * voltages for raspberry pi
  * requires snmp extend agent script from librenms-agent
  */
-$sensor_type = "rasbperry_volts";
+$sensor_type = "raspberry_volts";
 $oid = '.1.3.6.1.4.1.8072.1.3.2.4.1.2.9.114.97.115.112.98.101.114.114.121.';
 for ($volt = 2; $volt < 6; $volt++) {
     switch ($volt) {
